@@ -1,0 +1,1308 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swasthik Nayak | Portfolio — MCA Candidate & Full-Stack Developer</title>
+  <meta name="description" content="Portfolio of Swasthik Nayak — MCA Candidate at Poornaprajna Institute of Management, Web Developer, and IIT Kharagpur NPTEL Elite Medalist in Data Structures & Algorithms.">
+  <meta name="keywords" content="Swasthik Nayak, Portfolio, MCA, Web Developer, Python, JavaScript, Restaurant Management System, Udupi, Karkala">
+  <meta name="author" content="Swasthik Nayak">
+
+  <!-- Open Graph / Meta -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Swasthik Nayak | Portfolio">
+  <meta property="og:description" content="Explore projects, skills, education, and achievements of Swasthik Nayak.">
+  <meta property="og:image" content="assets/profile.png">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="assets/profile.png">
+</head>
+<body>
+  <!-- Ambient Background Elements -->
+  <div class="ambient-glow glow-1" aria-hidden="true"></div>
+  <div class="ambient-glow glow-2" aria-hidden="true"></div>
+  <div class="grid-pattern-overlay" aria-hidden="true"></div>
+
+  <!-- Header / Navigation Bar -->
+  <header class="site-header" id="header">
+    <div class="header-container">
+      <a href="#hero" class="brand-logo" aria-label="Swasthik Nayak Home">
+        <span class="logo-symbol">&lt;SN/&gt;</span>
+        <span class="logo-name">Swasthik<strong>Nayak</strong></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav" aria-label="Main Navigation">
+        <ul class="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Items & Theme Toggle -->
+      <div class="header-actions">
+        <button id="themeToggleBtn" class="action-btn theme-toggle" aria-label="Toggle light and dark mode" title="Toggle theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="4"></circle>
+            <path d="M12 2v2m0 16v2M4.93 4.93l1.41 1.41m11.32 11.32l1.41 1.41M2 12h2m16 0h2M6.34 17.66l-1.41 1.41M19.07 4.93l-1.41 1.41"></path>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <a href="assets/Swasthik_Nayak_Resume.pdf" target="_blank" download="Swasthik_Nayak_Resume.pdf" class="btn btn-outline-sm resume-btn">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path>
+            <polyline points="7 10 12 15 17 10"></polyline>
+            <line x1="12" y1="15" x2="12" y2="3"></line>
+          </svg>
+          <span>Resume</span>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobileMenuBtn" class="action-btn mobile-menu-btn" aria-label="Open mobile menu" aria-expanded="false">
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+          <span class="hamburger-line"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-drawer" id="mobileDrawer">
+      <ul class="mobile-nav-links">
+        <li><a href="#about" class="mobile-link">About</a></li>
+        <li><a href="#skills" class="mobile-link">Skills</a></li>
+        <li><a href="#projects" class="mobile-link">Projects</a></li>
+        <li><a href="#experience" class="mobile-link">Experience</a></li>
+        <li><a href="#education" class="mobile-link">Education</a></li>
+        <li><a href="#certifications" class="mobile-link">Certifications</a></li>
+        <li><a href="#contact" class="mobile-link">Contact</a></li>
+        <li class="mobile-drawer-btn">
+          <a href="assets/Swasthik_Nayak_Resume.pdf" target="_blank" download="Swasthik_Nayak_Resume.pdf" class="btn btn-primary btn-block">
+            Download Resume
+          </a>
+        </li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section id="hero" class="hero-section">
+      <div class="section-container hero-grid">
+        <div class="hero-content">
+          <div class="badge-pill hero-badge">
+            <span class="status-dot"></span>
+            <span>Available for Opportunities &bull; Fresher 2025-2027</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text">Swasthik Nayak</span>
+          </h1>
+
+          <div class="typing-container" aria-label="Role typing animation">
+            <span class="typing-prefix">I build </span>
+            <span class="typing-text" id="typingText">Modern Web Applications</span>
+            <span class="typing-cursor">|</span>
+          </div>
+
+          <p class="hero-description">
+            Ambitious MCA candidate at <strong>Poornaprajna Institute of Management (PIM)</strong> with strong Computer Science fundamentals. Passionate about engineering scalable software applications, modern backend architectures, and clean responsive frontends.
+          </p>
+
+          <!-- Quick Stat Highlights -->
+          <div class="hero-highlights">
+            <div class="highlight-item">
+              <span class="highlight-num">MCA</span>
+              <span class="highlight-label">At PIM Udupi (2025-27)</span>
+            </div>
+            <div class="highlight-divider"></div>
+            <div class="highlight-item">
+              <span class="highlight-num">Elite</span>
+              <span class="highlight-label">IIT Kharagpur NPTEL</span>
+            </div>
+            <div class="highlight-divider"></div>
+            <div class="highlight-item">
+              <span class="highlight-num">3 Yrs</span>
+              <span class="highlight-label">Cultural Secretary</span>
+            </div>
+          </div>
+
+          <div class="hero-cta-group">
+            <a href="#projects" class="btn btn-primary">
+              <span>View Projects</span>
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
+            </a>
+            <a href="#contact" class="btn btn-secondary">
+              <span>Get in Touch</span>
+            </a>
+            <a href="assets/Swasthik_Nayak_Resume.pdf" target="_blank" class="btn btn-ghost" title="View PDF Resume">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                <polyline points="14 2 14 8 20 8"></polyline>
+                <line x1="16" y1="13" x2="8" y2="13"></line>
+                <line x1="16" y1="17" x2="8" y2="17"></line>
+                <polyline points="10 9 9 9 8 9"></polyline>
+              </svg>
+              <span>View CV</span>
+            </a>
+          </div>
+
+          <!-- Quick Connect Links -->
+          <div class="hero-quick-links">
+            <a href="mailto:swasthiknayak09@gmail.com" class="quick-link-pill" title="Email Swasthik">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                <polyline points="22,6 12,13 2,6"></polyline>
+              </svg>
+              <span>swasthiknayak09@gmail.com</span>
+            </a>
+            <a href="tel:+918197194701" class="quick-link-pill" title="Call Swasthik">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span>+91 8197194701</span>
+            </a>
+            <span class="quick-link-pill location-pill">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              <span>Karkala, Udupi, Karnataka</span>
+            </span>
+          </div>
+        </div>
+
+        <!-- Profile Card Visual -->
+        <div class="hero-visual">
+          <div class="profile-card-wrapper">
+            <div class="profile-card-glow"></div>
+            <div class="profile-card">
+              <div class="profile-image-container">
+                <img src="assets/profile.png" alt="Swasthik Nayak Profile Photo" class="profile-photo" loading="eager">
+                <div class="experience-tag">
+                  <span class="pulse-ring"></span>
+                  <span>Fresher / MCA '27</span>
+                </div>
+              </div>
+              <div class="profile-card-info">
+                <div class="card-header-row">
+                  <div>
+                    <h3 class="card-name">Swasthik Nayak</h3>
+                    <p class="card-sub">Poornaprajna Institute of Management</p>
+                  </div>
+                  <div class="card-flag" title="India">🇮🇳</div>
+                </div>
+
+                <div class="card-tech-chips">
+                  <span class="tech-chip">Python</span>
+                  <span class="tech-chip">DSA</span>
+                  <span class="tech-chip">JavaScript</span>
+                  <span class="tech-chip">HTML5/CSS3</span>
+                  <span class="tech-chip">SQL / RBAC</span>
+                </div>
+
+                <div class="card-status-box">
+                  <div class="status-box-header">
+                    <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                      <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+                    </svg>
+                    <span>Key Credential</span>
+                  </div>
+                  <p class="status-box-body">
+                    IIT Kharagpur Elite Medalist &bull; NPTEL Data Structures in Python
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT & PERSONAL DETAILS SECTION -->
+    <section id="about" class="section-padding about-section">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Biography & Background</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-narrative glass-panel">
+            <h3 class="panel-title">
+              <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                <circle cx="12" cy="7" r="4"></circle>
+              </svg>
+              Professional Profile
+            </h3>
+            <p class="about-text">
+              I am an ambitious <strong>Master of Computer Applications (MCA)</strong> candidate at <strong>Poornaprajna Institute of Management (PIM)</strong>, Udupi, having built a robust foundation in Computer Science during my Bachelor's degree at Alvas College.
+            </p>
+            <p class="about-text">
+              Driven by a deep passion for building scalable software applications, I focus on understanding backend frameworks, exploring modern database management systems, and crafting clean, accessible web interfaces. I am a quick learner committed to academic excellence, problem solving, and hands-on project work designed to transition smoothly into the software engineering industry.
+            </p>
+            
+            <div class="key-values-grid">
+              <div class="value-card">
+                <div class="value-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <polyline points="16 18 22 12 16 6"></polyline>
+                    <polyline points="8 6 2 12 8 18"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Solid CS Core</h4>
+                  <p>Certified in DSA from IIT Kharagpur with deep algorithmic grounding.</p>
+                </div>
+              </div>
+
+              <div class="value-card">
+                <div class="value-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="3" width="20" height="14" rx="2" ry="2"></rect>
+                    <line x1="8" y1="21" x2="16" y2="21"></line>
+                    <line x1="12" y1="17" x2="12" y2="21"></line>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Full-Stack Perspective</h4>
+                  <p>Practical frontend experience combined with backend RBAC & data flow understanding.</p>
+                </div>
+              </div>
+
+              <div class="value-card">
+                <div class="value-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                    <circle cx="9" cy="7" r="4"></circle>
+                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Proven Leadership</h4>
+                  <p>Cultural Secretary for 3 consecutive years; led major inter-collegiate events.</p>
+                </div>
+              </div>
+
+              <div class="value-card">
+                <div class="value-icon">
+                  <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <polyline points="12 6 12 12 14 14"></polyline>
+                  </svg>
+                </div>
+                <div>
+                  <h4>Adaptable & Focused</h4>
+                  <p>Fast paced self-learner with time management and collaborative teamwork ethics.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Personal Information & Languages -->
+          <div class="about-sidebar">
+            <div class="glass-panel personal-info-card">
+              <h3 class="panel-title">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                  <line x1="16" y1="2" x2="16" y2="6"></line>
+                  <line x1="8" y1="2" x2="8" y2="6"></line>
+                  <line x1="3" y1="10" x2="21" y2="10"></line>
+                </svg>
+                Personal Details
+              </h3>
+
+              <ul class="personal-detail-list">
+                <li>
+                  <span class="detail-label">Full Name</span>
+                  <span class="detail-val">Swasthik Nayak</span>
+                </li>
+                <li>
+                  <span class="detail-label">Date of Birth</span>
+                  <span class="detail-val">22 March 2004</span>
+                </li>
+                <li>
+                  <span class="detail-label">Nationality</span>
+                  <span class="detail-val">Indian</span>
+                </li>
+                <li>
+                  <span class="detail-label">Education Status</span>
+                  <span class="detail-val">MCA (2025–2027)</span>
+                </li>
+                <li>
+                  <span class="detail-label">Location</span>
+                  <span class="detail-val">Karkala, Udupi, KA</span>
+                </li>
+                <li>
+                  <span class="detail-label">Address</span>
+                  <span class="detail-val address-val">Mahalaxmi Nilaya, Ashwattakatte Near Govt School Durga, Tellaru, Karkala, Udupi</span>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Languages Spoken Card -->
+            <div class="glass-panel languages-card">
+              <h3 class="panel-title">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="2" y1="12" x2="22" y2="12"></line>
+                  <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+                </svg>
+                Languages
+              </h3>
+              <div class="languages-grid">
+                <div class="language-pill">
+                  <span class="lang-name">English</span>
+                  <span class="lang-badge">Professional</span>
+                </div>
+                <div class="language-pill">
+                  <span class="lang-name">Kannada</span>
+                  <span class="lang-badge">Native</span>
+                </div>
+                <div class="language-pill">
+                  <span class="lang-name">Tulu</span>
+                  <span class="lang-badge">Fluent</span>
+                </div>
+                <div class="language-pill">
+                  <span class="lang-name">Hindi</span>
+                  <span class="lang-badge">Conversational</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS MATRIX SECTION -->
+    <section id="skills" class="section-padding skills-section">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Technical Competencies</span>
+          <h2 class="section-title">Skills & Proficiencies</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Filter Buttons -->
+        <div class="skills-filter-tabs">
+          <button class="filter-btn active" data-filter="all">All Skills</button>
+          <button class="filter-btn" data-filter="tech">Programming & Core CS</button>
+          <button class="filter-btn" data-filter="web">Web & Frontend</button>
+          <button class="filter-btn" data-filter="backend">Backend & Database</button>
+          <button class="filter-btn" data-filter="soft">Professional & Leadership</button>
+        </div>
+
+        <div class="skills-grid" id="skillsGrid">
+          <!-- Python & DSA -->
+          <div class="skill-card glass-panel" data-category="tech">
+            <div class="skill-icon-header">
+              <div class="skill-icon-box python-icon">
+                <span>Py</span>
+              </div>
+              <span class="skill-tag highlight-tag">IIT Elite Certified</span>
+            </div>
+            <h4 class="skill-name">Python &amp; DSA</h4>
+            <p class="skill-desc">Data Structures, Algorithms, problem solving, recursion, OOP, and data handling.</p>
+            <div class="skill-meter">
+              <div class="meter-bar" style="--level: 90%;"></div>
+            </div>
+            <div class="skill-footer">
+              <span>Proficiency</span>
+              <span>Advanced Academic</span>
+            </div>
+          </div>
+
+          <!-- HTML5 & CSS3 -->
+          <div class="skill-card glass-panel" data-category="web">
+            <div class="skill-icon-header">
+              <div class="skill-icon-box html-icon">
+                <span>&lt;/&gt;</span>
+              </div>
+              <span class="skill-tag">Internship Proven</span>
+            </div>
+            <h4 class="skill-name">HTML5 &amp; CSS3</h4>
+            <p class="skill-desc">Semantic markup, responsive layouts, Flexbox, CSS Grid, media queries, and modern UI.</p>
+            <div class="skill-meter">
+              <div class="meter-bar" style="--level: 92%;"></div>
+            </div>
+            <div class="skill-footer">
+              <span>Proficiency</span>
+              <span>Highly Proficient</span>
+            </div>
+          </div>
+
+          <!-- JavaScript -->
+          <div class="skill-card glass-panel" data-category="web">
+            <div class="skill-icon-header">
+              <div class="skill-icon-box js-icon">
+                <span>JS</span>
+              </div>
+              <span class="skill-tag">Frontend Core</span>
+            </div>
+            <h4 class="skill-name">JavaScript (ES6+)</h4>
+            <p class="skill-desc">DOM manipulation, event handling, asynchronous operations, state management, and API logic.</p>
+            <div class="skill-meter">
+              <div class="meter-bar" style="--level: 85%;"></div>
+            </div>
+            <div class="skill-footer">
+              <span>Proficiency</span>
+              <span>Proficient</span>
+            </div>
+          </div>
+
+          <!-- UI/UX Design -->
+          <div class="skill-card glass-panel" data-category="web">
+            <div class="skill-icon-header">
+              <div class="skill-icon-box ui-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 19l7-7 3 3-7 7-3-3z"></path>
+                  <path d="M18 13l-1.5-7.5L2 2l3.5 14.5L13 18l5-5z"></path>
+                  <path d="M2 2l7.586 7.586"></path>
+                  <circle cx="11" cy="11" r="2"></circle>
+                </svg>
+              </div>
+              <span class="skill-tag">Design Knowledge</span>
+            </div>
+            <h4 class="skill-name">UI / UX Design</h4>
+            <p class="skill-desc">Design hierarchy, responsive wireframing, color psychology, and intuitive accessibility.</p>
+            <div class="skill-meter">
+              <div class="meter-bar" style="--level: 80%;"></div>
+            </div>
+            <div class="skill-footer">
+              <span>Proficiency</span>
+              <span>Intermediate</span>
+            </div>
+          </div>
+
+          <!-- Backend Frameworks & RBAC -->
+          <div class="skill-card glass-panel" data-category="backend">
+            <div class="skill-icon-header">
+              <div class="skill-icon-box backend-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="2" y="2" width="20" height="8" rx="2" ry="2"></rect>
+                  <rect x="2" y="14" width="20" height="8" rx="2" ry="2"></rect>
+                  <line x1="6" y1="6" x2="6.01" y2="6"></line>
+                  <line x1="6" y1="18" x2="6.01" y2="18"></line>
+                </svg>
+              </div>
+              <span class="skill-tag">Architecture</span>
+            </div>
+            <h4 class="skill-name">Backend &amp; RBAC</h4>
+            <p class="skill-desc">Role-Based Access Control, route authorization, RESTful design, and business logic pipeline.</p>
+            <div class="skill-meter">
+              <div class="meter-bar" style="--level: 82%;"></div>
+            </div>
+            <div class="skill-footer">
+              <span>Proficiency</span>
+              <span>Project Proven</span>
+            </div>
+          </div>
+
+          <!-- Database Management Systems -->
+          <div class="skill-card glass-panel" data-category="backend">
+            <div class="skill-icon-header">
+              <div class="skill-icon-box db-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                  <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                  <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                  <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                </svg>
+              </div>
+              <span class="skill-tag">Data Management</span>
+            </div>
+            <h4 class="skill-name">Database Systems</h4>
+            <p class="skill-desc">Relational database design, SQL querying, normalization, schema modeling, and data integrity.</p>
+            <div class="skill-meter">
+              <div class="meter-bar" style="--level: 80%;"></div>
+            </div>
+            <div class="skill-footer">
+              <span>Proficiency</span>
+              <span>Intermediate</span>
+            </div>
+          </div>
+
+          <!-- Problem Solving & Analytical Thinking -->
+          <div class="skill-card glass-panel" data-category="soft">
+            <div class="skill-icon-header">
+              <div class="skill-icon-box soft-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3"></path>
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="17" x2="12.01" y2="17"></line>
+                </svg>
+              </div>
+              <span class="skill-tag">Core Mindset</span>
+            </div>
+            <h4 class="skill-name">Problem Solving</h4>
+            <p class="skill-desc">Deconstructing complex software problems into clean modular algorithmic solutions.</p>
+            <div class="skill-meter">
+              <div class="meter-bar" style="--level: 90%;"></div>
+            </div>
+            <div class="skill-footer">
+              <span>Proficiency</span>
+              <span>High Aptitude</span>
+            </div>
+          </div>
+
+          <!-- Leadership & Teamwork -->
+          <div class="skill-card glass-panel" data-category="soft">
+            <div class="skill-icon-header">
+              <div class="skill-icon-box soft-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <polyline points="16 11 18 13 22 9"></polyline>
+                </svg>
+              </div>
+              <span class="skill-tag">Demonstrated</span>
+            </div>
+            <h4 class="skill-name">Leadership &amp; Teamwork</h4>
+            <p class="skill-desc">Cultural Secretary (3 yrs), managing large teams, orchestrating schedules, and conflict resolution.</p>
+            <div class="skill-meter">
+              <div class="meter-bar" style="--level: 95%;"></div>
+            </div>
+            <div class="skill-footer">
+              <span>Proficiency</span>
+              <span>Extensive Track Record</span>
+            </div>
+          </div>
+
+          <!-- Adaptability & Rapid Learning -->
+          <div class="skill-card glass-panel" data-category="soft">
+            <div class="skill-icon-header">
+              <div class="skill-icon-box soft-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="23 4 23 10 17 10"></polyline>
+                  <polyline points="1 20 1 14 7 14"></polyline>
+                  <path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"></path>
+                </svg>
+              </div>
+              <span class="skill-tag">Continuous Growth</span>
+            </div>
+            <h4 class="skill-name">Adaptability &amp; Learning</h4>
+            <p class="skill-desc">Swiftly picking up new frameworks, libraries, devtools, and engineering workflows.</p>
+            <div class="skill-meter">
+              <div class="meter-bar" style="--level: 92%;"></div>
+            </div>
+            <div class="skill-footer">
+              <span>Proficiency</span>
+              <span>High Agility</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURED PROJECTS SECTION -->
+    <section id="projects" class="section-padding projects-section">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Practical Engineering</span>
+          <h2 class="section-title">Featured Project Spotlight</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <!-- Featured Project Card: Restaurant Management System (RMS) -->
+        <div class="featured-project-card glass-panel">
+          <div class="project-header">
+            <div class="project-badge-row">
+              <span class="project-type-pill">Full-Stack Application</span>
+              <span class="project-status-pill">Active Showcase</span>
+            </div>
+            <h3 class="project-title">Restaurant Management System (RMS)</h3>
+            <p class="project-subtitle">
+              An end-to-end restaurant management solution featuring real-time table reservations, multi-role order tracking, and automated billing with GST calculation.
+            </p>
+          </div>
+
+          <div class="project-body-grid">
+            <!-- Project Features Breakdown -->
+            <div class="project-features-list">
+              <h4 class="feature-heading">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+                Core Capabilities & Architecture
+              </h4>
+
+              <div class="feature-box">
+                <div class="feature-bullet">1</div>
+                <div>
+                  <h5>Real-Time Table Reservation</h5>
+                  <p>Interactive table layout tracker allowing real-time status updates (Vacant, Reserved, Dining) to prevent double bookings.</p>
+                </div>
+              </div>
+
+              <div class="feature-box">
+                <div class="feature-bullet">2</div>
+                <div>
+                  <h5>Live Order Tracking Pipeline</h5>
+                  <p>Streamlined workflow connecting customer order entry to kitchen status (Pending &rarr; Cooking &rarr; Ready to Serve &rarr; Served).</p>
+                </div>
+              </div>
+
+              <div class="feature-box">
+                <div class="feature-bullet">3</div>
+                <div>
+                  <h5>Automated Billing &amp; GST Calculation</h5>
+                  <p>Dynamic total calculation factoring itemized pricing, applicable CGST &amp; SGST percentage, and instant receipt invoice generation.</p>
+                </div>
+              </div>
+
+              <div class="feature-box">
+                <div class="feature-bullet">4</div>
+                <div>
+                  <h5>Role-Based Access Control (RBAC)</h5>
+                  <p>Strict access tiers for <strong>Admin</strong> (menu pricing, analytics, user roles), <strong>Waiter</strong> (table & order taking), and <strong>Kitchen Staff</strong> (order fulfillment queue).</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Interactive Architecture & Role Diagram / Simulator Launcher -->
+            <div class="project-visual-pane">
+              <div class="rbac-card glass-panel">
+                <div class="rbac-header">
+                  <span class="rbac-indicator"></span>
+                  <span>Role-Based Access Control Flow</span>
+                </div>
+                <div class="roles-display">
+                  <div class="role-badge role-admin">
+                    <span class="role-icon">👑</span>
+                    <strong>Admin</strong>
+                    <span>Analytics &bull; Settings &bull; Staff</span>
+                  </div>
+                  <div class="role-arrow">&rarr;</div>
+                  <div class="role-badge role-waiter">
+                    <span class="role-icon">📋</span>
+                    <strong>Waiter</strong>
+                    <span>Tables &bull; Orders &bull; Billing</span>
+                  </div>
+                  <div class="role-arrow">&rarr;</div>
+                  <div class="role-badge role-kitchen">
+                    <span class="role-icon">🍳</span>
+                    <strong>Kitchen</strong>
+                    <span>KDS &bull; Prep &bull; Status</span>
+                  </div>
+                </div>
+
+                <div class="tech-tags-group">
+                  <span class="tech-tag">HTML5 / CSS3</span>
+                  <span class="tech-tag">JavaScript ES6</span>
+                  <span class="tech-tag">RBAC Security</span>
+                  <span class="tech-tag">GST Tax Engine</span>
+                  <span class="tech-tag">State Management</span>
+                  <span class="tech-tag">Relational Data Flow</span>
+                </div>
+
+                <!-- Launch Interactive Demo Simulator Button -->
+                <button id="openRmsSimulatorBtn" class="btn btn-primary btn-block launch-demo-btn">
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <polygon points="5 3 19 12 5 21 5 3"></polygon>
+                  </svg>
+                  <span>Launch Live Interactive RMS Simulator</span>
+                </button>
+                <small class="simulator-note">Try out table reservations, live order billing with GST, and RBAC switcher right here!</small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTERNSHIPS & WORK EXPERIENCE SECTION -->
+    <section id="experience" class="section-padding experience-section">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Industry Immersion</span>
+          <h2 class="section-title">Internship Experience</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="experience-timeline">
+          <div class="timeline-item glass-panel">
+            <div class="timeline-dot"></div>
+            <div class="timeline-header">
+              <div class="timeline-title-group">
+                <span class="experience-period">2025</span>
+                <h3 class="experience-role">Web Development Intern</h3>
+                <h4 class="experience-org">Frontend &amp; UI Engineering Focus</h4>
+              </div>
+              <span class="badge-pill role-pill">Internship</span>
+            </div>
+
+            <div class="timeline-body">
+              <p class="timeline-desc">
+                Engaged in an intensive internship focusing on contemporary web standards, responsive front-end engineering, and design system implementation.
+              </p>
+
+              <div class="experience-highlights-grid">
+                <div class="exp-highlight-card">
+                  <div class="exp-icon">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                      <polyline points="4 17 10 11 4 5"></polyline>
+                      <line x1="12" y1="19" x2="20" y2="19"></line>
+                    </svg>
+                  </div>
+                  <div>
+                    <h5>Modern Web Stack</h5>
+                    <p>Built responsive, mobile-first pages with semantic HTML5, modular CSS3, and modern JavaScript.</p>
+                  </div>
+                </div>
+
+                <div class="exp-highlight-card">
+                  <div class="exp-icon">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                      <circle cx="12" cy="12" r="10"></circle>
+                      <circle cx="12" cy="12" r="4"></circle>
+                      <line x1="4.93" y1="4.93" x2="9.17" y2="9.17"></line>
+                      <line x1="14.83" y1="14.83" x2="19.07" y2="19.07"></line>
+                      <line x1="14.83" y1="9.17" x2="19.07" y2="4.93"></line>
+                      <line x1="14.83" y1="9.17" x2="19.07" y2="4.93"></line>
+                    </svg>
+                  </div>
+                  <div>
+                    <h5>UI/UX Design Integration</h5>
+                    <p>Acquired practical knowledge of user interface hierarchy, typography systems, spacing standards, and layout consistency.</p>
+                  </div>
+                </div>
+
+                <div class="exp-highlight-card">
+                  <div class="exp-icon">
+                    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
+                      <polyline points="14 2 14 8 20 8"></polyline>
+                    </svg>
+                  </div>
+                  <div>
+                    <h5>Clean Code &amp; Testing</h5>
+                    <p>Adhered to cross-browser compatibility standards, clean component organization, and performance optimization.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION TIMELINE SECTION -->
+    <section id="education" class="section-padding education-section">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Academic Journey</span>
+          <h2 class="section-title">Education &amp; Qualifications</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="education-grid">
+          <!-- Item 1: MCA -->
+          <div class="education-card glass-panel current-degree">
+            <div class="degree-badge">Current Pursuit</div>
+            <span class="degree-period">2025 &mdash; 2027</span>
+            <h3 class="degree-name">Master of Computer Applications (MCA) / Masters of Computer Science</h3>
+            <h4 class="institute-name">Poornaprajna Institute of Management (PIM)</h4>
+            <span class="institute-loc">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Udupi, Karnataka
+            </span>
+            <p class="degree-desc">
+              Focusing on advanced computing systems, backend architectures, scalable software engineering, and modern database technologies to transition seamlessly into top engineering roles.
+            </p>
+          </div>
+
+          <!-- Item 2: Bachelor of Computer Science -->
+          <div class="education-card glass-panel">
+            <span class="degree-period">2023 &mdash; 2025</span>
+            <h3 class="degree-name">Bachelor of Computer Science</h3>
+            <h4 class="institute-name">Alvas Degree College</h4>
+            <span class="institute-loc">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Moodubidre, Karnataka
+            </span>
+            <p class="degree-desc">
+              Rigorous fundamentals in Data Structures, Programming Languages, Database Systems, Web Technologies, and active campus leadership as Cultural Secretary for 3 consecutive years.
+            </p>
+          </div>
+
+          <!-- Item 3: PUC -->
+          <div class="education-card glass-panel">
+            <span class="degree-period">2020 &mdash; 2022</span>
+            <h3 class="degree-name">Pre-University Course (PUC)</h3>
+            <h4 class="institute-name">Govt PU College</h4>
+            <span class="institute-loc">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Karkala, Karnataka
+            </span>
+            <p class="degree-desc">
+              Secondary higher education focusing on science and mathematics, building core analytical and quantitative problem-solving foundations.
+            </p>
+          </div>
+
+          <!-- Item 4: SSLC -->
+          <div class="education-card glass-panel">
+            <span class="degree-period">2019</span>
+            <h3 class="degree-name">Secondary School Leaving Certificate (SSLC)</h3>
+            <h4 class="institute-name">S B M P M High School</h4>
+            <span class="institute-loc">
+              <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
+              Durga Tellaru, Karkala
+            </span>
+            <p class="degree-desc">
+              Strong foundational schooling with academic dedication, discipline, and participation in co-curricular initiatives.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS & HONORS SECTION -->
+    <section id="certifications" class="section-padding certifications-section">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Verified Credentials</span>
+          <h2 class="section-title">Certifications &amp; Honors</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="cert-showcase">
+          <!-- Elite Medal Card -->
+          <div class="cert-featured-card glass-panel">
+            <div class="medal-ribbon">
+              <span class="medal-icon">🎖️</span>
+              <span class="medal-text">Elite Medal</span>
+            </div>
+
+            <div class="cert-content">
+              <div class="cert-issuer-badge">
+                <span>IIT Kharagpur &bull; NPTEL Certified</span>
+              </div>
+              <h3 class="cert-title">Data Structures and Algorithms in Python</h3>
+              <p class="cert-institution">Indian Institute of Technology (IIT), Kharagpur</p>
+              
+              <p class="cert-details">
+                Achieved prestigious <strong>Elite Medal</strong> standing in the nationwide NPTEL certification exam. Covered exhaustive algorithmic design, asymptotic complexity analysis, graph algorithms, divide &amp; conquer, dynamic programming, and Python data structure implementations.
+              </p>
+
+              <div class="cert-tags-row">
+                <span class="cert-tag">IIT Kharagpur</span>
+                <span class="cert-tag">NPTEL</span>
+                <span class="cert-tag">Elite Medal</span>
+                <span class="cert-tag">Python DSA</span>
+                <span class="cert-tag">Algorithm Design</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ACHIEVEMENTS & ACTIVITIES SECTION -->
+    <section id="achievements" class="section-padding achievements-section">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Beyond the Code</span>
+          <h2 class="section-title">Achievements &amp; Leadership</h2>
+          <div class="section-line"></div>
+        </div>
+
+        <div class="achievements-grid">
+          <!-- Cultural Secretary -->
+          <div class="achievement-card glass-panel">
+            <div class="achievement-icon-wrapper gold-accent">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+              </svg>
+            </div>
+            <div class="achievement-meta">
+              <span class="achievement-duration">3 Consecutive Years</span>
+              <h3 class="achievement-heading">Cultural Secretary — Alvas College</h3>
+            </div>
+            <p class="achievement-body">
+              Entrusted with executive leadership for three consecutive years at Alvas Degree College. Spearheaded the planning, stage coordination, logistics, and student engagement for massive regional and inter-collegiate festivals. Demonstrated stellar public communication, budget management, and team leadership.
+            </p>
+            <div class="achievement-tags">
+              <span>Event Management</span>
+              <span>Team Leadership</span>
+              <span>Crisis Resolution</span>
+            </div>
+          </div>
+
+          <!-- NSS Volunteer -->
+          <div class="achievement-card glass-panel">
+            <div class="achievement-icon-wrapper green-accent">
+              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
+              </svg>
+            </div>
+            <div class="achievement-meta">
+              <span class="achievement-duration">1 Year Active Service</span>
+              <h3 class="achievement-heading">National Service Scheme (NSS) Volunteer</h3>
+            </div>
+            <p class="achievement-body">
+              Completed 1 year of active service as an NSS volunteer, participating in community health outreach camps, environmental preservation initiatives, rural literacy awareness, and social welfare programs. Instilled a deep commitment to social discipline and ethical responsibility.
+            </p>
+            <div class="achievement-tags">
+              <span>Community Impact</span>
+              <span>Social Responsibility</span>
+              <span>Discipline</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEVELOPER TERMINAL INTERACTIVE WIDGET -->
+    <section class="section-padding terminal-section">
+      <div class="section-container">
+        <div class="terminal-wrapper glass-panel">
+          <div class="terminal-bar">
+            <div class="terminal-dots">
+              <span class="term-dot dot-red"></span>
+              <span class="term-dot dot-yellow"></span>
+              <span class="term-dot dot-green"></span>
+            </div>
+            <div class="terminal-title">swasthik@portfolio: ~ (Interactive Shell)</div>
+            <div class="terminal-help-hint">Type <code>help</code> or click commands</div>
+          </div>
+
+          <div class="terminal-body" id="terminalOutput">
+            <p class="term-line welcome-line">Swasthik Nayak Developer Terminal v1.0 [MCA '27 @ PIM Udupi]</p>
+            <p class="term-line">Type <span class="term-hl">help</span> to view all commands, or click any quick command below:</p>
+          </div>
+
+          <div class="terminal-quick-commands">
+            <button class="term-pill" data-cmd="skills">skills</button>
+            <button class="term-pill" data-cmd="rms">project rms</button>
+            <button class="term-pill" data-cmd="cert">certifications</button>
+            <button class="term-pill" data-cmd="education">education</button>
+            <button class="term-pill" data-cmd="contact">contact</button>
+            <button class="term-pill" data-cmd="hire">hire swasthik</button>
+            <button class="term-pill" data-cmd="clear">clear</button>
+          </div>
+
+          <form id="terminalForm" class="terminal-input-row" autocomplete="off">
+            <span class="term-prompt">swasthik@dev:~$</span>
+            <input type="text" id="terminalInput" class="terminal-input" placeholder="Try typing 'skills', 'contact', or 'help'..." spellcheck="false">
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact" class="section-padding contact-section">
+      <div class="section-container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">Let's Connect</span>
+          <h2 class="section-title">Get in Touch</h2>
+          <div class="section-line"></div>
+          <p class="section-lead">
+            Open to internships, junior developer roles, and technical collaborations. Feel free to drop a message or reach out directly!
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Contact Cards Info -->
+          <div class="contact-info-col">
+            <!-- Email Card -->
+            <div class="contact-card glass-panel">
+              <div class="contact-icon email-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="card-label">Email Address</span>
+                <a href="mailto:swasthiknayak09@gmail.com" class="card-link" id="emailVal">swasthiknayak09@gmail.com</a>
+              </div>
+              <button class="copy-btn" data-copy="swasthiknayak09@gmail.com" title="Copy Email">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Phone Card -->
+            <div class="contact-card glass-panel">
+              <div class="contact-icon phone-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="card-label">Direct Phone</span>
+                <a href="tel:+918197194701" class="card-link" id="phoneVal">+91 8197194701</a>
+              </div>
+              <button class="copy-btn" data-copy="+918197194701" title="Copy Phone Number">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect>
+                  <path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path>
+                </svg>
+              </button>
+            </div>
+
+            <!-- Location Card -->
+            <div class="contact-card glass-panel">
+              <div class="contact-icon loc-icon">
+                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-card-text">
+                <span class="card-label">Current Address &amp; Region</span>
+                <span class="card-link plain">Mahalaxmi Nilaya, Ashwattakatte Near Govt School Durga, Tellaru, Karkala, Udupi, Karnataka, India</span>
+              </div>
+            </div>
+
+            <!-- Quick WhatsApp CTA -->
+            <div class="whatsapp-cta-box glass-panel">
+              <div class="wa-content">
+                <h4>Prefer instant messaging?</h4>
+                <p>Chat directly with Swasthik via WhatsApp.</p>
+              </div>
+              <a href="https://wa.me/918197194701?text=Hi%20Swasthik,%20I%20reviewed%20your%20portfolio%20and%20would%20love%20to%20connect!" target="_blank" class="btn btn-whatsapp">
+                <span>Chat on WhatsApp</span>
+              </a>
+            </div>
+          </div>
+
+          <!-- Interactive Message Form -->
+          <div class="contact-form-col">
+            <div class="contact-form-card glass-panel">
+              <h3 class="form-title">Send a Direct Message</h3>
+              <p class="form-desc">Fill out the form below to reach Swasthik directly.</p>
+
+              <form id="contactForm" class="contact-form">
+                <div class="form-row">
+                  <div class="form-group">
+                    <label for="senderName">Your Name</label>
+                    <input type="text" id="senderName" name="name" placeholder="John Doe" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="senderEmail">Your Email</label>
+                    <input type="email" id="senderEmail" name="email" placeholder="john@example.com" required>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="messageSubject">Subject</label>
+                  <input type="text" id="messageSubject" name="subject" placeholder="Internship Opportunity / Inquiry" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="messageBody">Message</label>
+                  <textarea id="messageBody" name="message" rows="5" placeholder="Hi Swasthik, I came across your portfolio and would like to discuss..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block submit-btn" id="submitBtn">
+                  <span>Send Message</span>
+                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+                    <line x1="22" y1="2" x2="11" y2="13"></line>
+                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+                  </svg>
+                </button>
+              </form>
+              <div id="formStatus" class="form-status" aria-live="polite"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- RMS INTERACTIVE SIMULATOR MODAL -->
+  <div id="rmsModal" class="modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="rmsModalTitle">
+    <div class="modal-dialog">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <span class="modal-chip">Live Interactive Prototype</span>
+          <h3 id="rmsModalTitle">Restaurant Management System (RMS)</h3>
+        </div>
+        <button id="closeRmsModalBtn" class="modal-close-btn" aria-label="Close modal">&times;</button>
+      </div>
+
+      <div class="modal-body">
+        <!-- Role Switcher -->
+        <div class="simulator-toolbar">
+          <span class="toolbar-label">Active RBAC Role:</span>
+          <div class="role-selector-btns">
+            <button class="role-tab active" data-role="waiter">📋 Waiter View</button>
+            <button class="role-tab" data-role="kitchen">🍳 Kitchen (KDS)</button>
+            <button class="role-tab" data-role="admin">👑 Admin &amp; Billing</button>
+          </div>
+        </div>
+
+        <!-- Role 1: Waiter View (Table Layout + Order Taking) -->
+        <div class="simulator-pane active" id="pane-waiter">
+          <div class="pane-grid">
+            <div class="pane-col">
+              <h4>1. Live Table Reservation Layout</h4>
+              <p class="pane-sub">Click a table to select or toggle reservation state.</p>
+              <div class="tables-grid" id="tablesContainer">
+                <!-- Dynamically populated via JS -->
+              </div>
+            </div>
+
+            <div class="pane-col">
+              <h4>2. Add Menu Items for Table <span id="currentTableNumber">T-1</span></h4>
+              <div class="menu-items-list" id="menuItemsContainer">
+                <!-- Dynamically populated via JS -->
+              </div>
+              <button id="placeOrderBtn" class="btn btn-primary btn-block btn-sm mt-3">
+                Send Order to Kitchen &rarr;
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Role 2: Kitchen View (KDS Queue) -->
+        <div class="simulator-pane" id="pane-kitchen">
+          <div class="kds-header">
+            <h4>Live Kitchen Display System (KDS)</h4>
+            <span class="kds-badge" id="kdsCount">0 Active Tickets</span>
+          </div>
+          <div class="kds-orders-container" id="kdsOrdersContainer">
+            <!-- Dynamically populated orders -->
+          </div>
+        </div>
+
+        <!-- Role 3: Admin & Automated GST Billing -->
+        <div class="simulator-pane" id="pane-admin">
+          <div class="pane-grid">
+            <div class="pane-col">
+              <h4>Automated Billing Engine with GST</h4>
+              <p class="pane-sub">Select active table to calculate itemized tax invoice.</p>
+              <div class="bill-calculator-card glass-panel" id="billCalculator">
+                <!-- Calculated breakdown populated via JS -->
+              </div>
+            </div>
+
+            <div class="pane-col">
+              <h4>System Analytics &amp; RBAC Audit</h4>
+              <div class="admin-stats-grid">
+                <div class="stat-card">
+                  <span class="stat-title">Active Tables</span>
+                  <span class="stat-val" id="activeTablesCount">2 / 6</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-title">Orders Completed</span>
+                  <span class="stat-val" id="completedOrdersCount">4</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-title">Today's Revenue</span>
+                  <span class="stat-val" id="todayRevenue">₹1,840</span>
+                </div>
+                <div class="stat-card">
+                  <span class="stat-title">GST Collected</span>
+                  <span class="stat-val" id="todayGst">₹92</span>
+                </div>
+              </div>
+              <div class="audit-log-box mt-3">
+                <h5>Security &amp; Role Logs</h5>
+                <ul class="audit-list" id="auditList">
+                  <li><span class="log-time">20:10</span> [Admin] Applied GST 5% standard tariff</li>
+                  <li><span class="log-time">20:11</span> [Waiter] T-1 order initiated</li>
+                  <li><span class="log-time">20:12</span> [Kitchen] T-1 ticket status &rarr; In Progress</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="modal-footer">
+        <span class="modal-footer-caption">Designed &amp; built by Swasthik Nayak as a full-stack architectural demonstration.</span>
+        <button id="modalDoneBtn" class="btn btn-secondary btn-sm">Close Prototype</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION CONTAINER -->
+  <div id="toastContainer" class="toast-container" aria-live="polite"></div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="section-container footer-content">
+      <div class="footer-brand">
+        <a href="#hero" class="brand-logo">
+          <span class="logo-symbol">&lt;SN/&gt;</span>
+          <span class="logo-name">Swasthik<strong>Nayak</strong></span>
+        </a>
+        <p class="footer-tagline">
+          MCA Candidate @ Poornaprajna Institute of Management &bull; Web &amp; Python Developer
+        </p>
+      </div>
+
+      <div class="footer-links-group">
+        <div class="footer-col">
+          <h4>Navigation</h4>
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">RMS Project</a></li>
+            <li><a href="#experience">Internship</a></li>
+            <li><a href="#education">Education</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h4>Direct Connect</h4>
+          <ul>
+            <li><a href="mailto:swasthiknayak09@gmail.com">swasthiknayak09@gmail.com</a></li>
+            <li><a href="tel:+918197194701">+91 8197194701</a></li>
+            <li><a href="assets/Swasthik_Nayak_Resume.pdf" target="_blank" download="Swasthik_Nayak_Resume.pdf">Download Resume (PDF)</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="section-container footer-bottom-inner">
+        <p>&copy; 2026 Swasthik Nayak. All rights reserved.</p>
+        <p class="built-with">Crafted with precision &bull; Fast, Accessible &amp; Responsive</p>
+        <a href="#hero" class="back-to-top" aria-label="Back to top">
+          <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="18 15 12 9 6 15"></polyline>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
